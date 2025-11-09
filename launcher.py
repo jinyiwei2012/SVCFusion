@@ -1,5 +1,5 @@
 import os
-
+os.environ["no_proxy"] = "localhost,127.0.0.1,::1"
 if __name__ == "__main__":
     # 从文件workdir 中读取启动器工作目录
     try:
